@@ -18,7 +18,7 @@ class Song
 
   def self.genre_count
     @@genre_1 = {}
-    @@genres.each do |genre|
+    @@genres.each do  ==genre
       @@genre_1[genre] ||= 0
       @@genre_1[genre] += 1
     end
@@ -27,7 +27,7 @@ class Song
 
   def self.artist_count
     @@artist_1 = {}
-    @@artists.each do |artist|
+    @@artists.each do == artist
       @@artist_1[artist] ||= 0
       @@artist_1[artist] += 1
     end
